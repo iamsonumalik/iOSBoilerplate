@@ -9,12 +9,6 @@
 import Foundation
 import Alamofire
 import SwiftyJSON
-
-protocol OnAPIHitCompleted {
-    func dataDidLoad(resultsInJSON:JSON)
-    func dataDidNotLoad(error : Error);
-}
-
 class APIHit {
     var viewController : UIViewController
     let httpURL = Strings.baseURL + "graphql"
