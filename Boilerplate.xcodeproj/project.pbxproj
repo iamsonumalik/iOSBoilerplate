@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F610E4CD82F82F455BE45AE /* Pods_BoilerplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F679F6C3601F815EA85B05 /* Pods_BoilerplateTests.framework */; };
+		A564BD7C20C5B1F8008855A6 /* UITextField+Extention .swift in Sources */ = {isa = PBXBuildFile; fileRef = A564BD7B20C5B1F8008855A6 /* UITextField+Extention .swift */; };
 		A5A91D482054584B0029E7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A91D472054584B0029E7CD /* AppDelegate.swift */; };
 		A5A91D4F2054584B0029E7CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A91D4E2054584B0029E7CD /* Assets.xcassets */; };
 		A5A91D522054584B0029E7CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A91D502054584B0029E7CD /* LaunchScreen.storyboard */; };
@@ -58,6 +59,7 @@
 		57B7B44ECB4269AA849458F5 /* Pods-BoilerplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoilerplateUITests/Pods-BoilerplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		83BCC649C8E852606634E0BA /* Pods-BoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoilerplateTests/Pods-BoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		90483BBE52633D631CF5144C /* Pods_Boilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A564BD7B20C5B1F8008855A6 /* UITextField+Extention .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extention .swift"; sourceTree = "<group>"; };
 		A5A91D442054584B0029E7CD /* Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A91D472054584B0029E7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A91D4E2054584B0029E7CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				A5A9222E205463700029E7CD /* UIViewController+Extentions.swift */,
 				A5A92230205463A70029E7CD /* UIImageView+Extentions.swift */,
 				A5A92233205464110029E7CD /* String+Extentions.swift */,
+				A564BD7B20C5B1F8008855A6 /* UITextField+Extention .swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				A5A9223A205466B40029E7CD /* SMCollectionReusableView.swift in Sources */,
 				A5A91D7E20545DB00029E7CD /* Strings.swift in Sources */,
 				A5A92231205463A70029E7CD /* UIImageView+Extentions.swift in Sources */,
+				A564BD7C20C5B1F8008855A6 /* UITextField+Extention .swift in Sources */,
 				A5A92234205464110029E7CD /* String+Extentions.swift in Sources */,
 				A5A91D8220545E780029E7CD /* Util.swift in Sources */,
 				A5A922362054650B0029E7CD /* SMViewController.swift in Sources */,
